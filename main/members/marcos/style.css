@@ -1,0 +1,279 @@
+:root {
+  --background: #09090B;
+  --border: #A1A1AA;
+  --zinc-400: #71717A;
+  --zinc-100: #E5E5E5;
+  --zinc-700: #27272a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--background);
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  padding: 0px 16px;
+  display: flex;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+header > img {
+  width: 70px;
+  height: 70px;
+}
+
+header div {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: var(--zinc-100);
+}
+
+.contact {
+  background-color: white;
+  color: var(--background);
+  font-size: 14px;  
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.contact:hover {
+  color: var(--zinc-100);
+  border: 1px solid var(--zinc-700);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.resume {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 300px;
+}
+
+.resume > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume > div > h3 {
+  font-size: 24px;
+}
+
+.resume > div > span {
+  color: var(--zinc-400);
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.resume > div > p {
+  font-size: 18px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.languages {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.languages img {
+  width: 28px;
+  height: 28px;
+  border-radius: 0px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.links > a {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.links > a:hover {
+  opacity: 90%;
+}
+
+.links > a > img {
+  width: 22px;
+  height: 22px;
+  padding: 8px;
+}
+
+section h2 {
+  color: var(--zinc-100);
+  font-size: 22px;
+}
+
+#about p {
+  font-size: 18px;
+  color: var(--zinc-400);
+  font-weight: 600;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.skills-grid > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--zinc-700);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.skills-grid > div > img {
+  width: 28px;
+  height: 28px;
+}
+
+#projects > aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#projects p {
+  font-size: 13px;
+  color: var(--zinc-400);
+  font-weight: bold;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.repo {
+  border: 1px solid var(--zinc-700);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.repo span {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--zinc-100);
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tags > div {
+  background-color: white;
+  color: var(--background);
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.repo a {
+  display: flex;
+  margin-top: 12px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#contact > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact p {
+  color: var(--zinc-400);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link {
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 4px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link img {
+  width: 28px;
+  height: 28px;
+}
+
+.email {
+  height: 42px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  border: 1px solid var(--zinc-700);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--zinc-400);
+  cursor: pointer;
+}
+
+.email i {
+  color: var(--zinc-700);
+  width: 16px;
+  height: 16px;
+}
+
+

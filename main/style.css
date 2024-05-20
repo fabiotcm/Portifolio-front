@@ -1,0 +1,119 @@
+body{
+  margin: 0 13%;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.059);
+  border-width: 0 1px;
+  font-family: sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1E0342;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.container-direita{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+
+.slogan{
+  height: 90%;
+  font-size: 35px;
+  padding-top: 30px;
+  translate: -90px 15px;
+}
+
+.ancora{
+  padding-left: 60%;
+}
+
+.container-objetivo{
+  background-color: #E1F7F5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  padding-left: 10px;
+}
+
+.esquerda div{
+  font-size: 28px;
+}
+
+.capacidades{
+  margin-bottom: 10px;
+}
+
+.topo{
+  margin-bottom: 30px;
+  padding-top: 20px;
+  height: 200px;
+  text-align: center;
+  background-color: #9AC8CD;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.topo p{
+  text-align: left;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 100px 100px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.grid img{
+  width: 150px;
+}
+
+.box{
+  height: 200px;
+  display: flex;
+  border-color: rgba(18, 17, 100, 0.071);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding-left: 2px;
+  font-size: 20px;
+}
+
+hr{
+  translate: 0 60px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.foto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.foto img{
+  border-radius: 50%;
+  height: 150px;
+}
+
+#portfolio {
+  margin: 5px;
+  margin: auto;
+}
